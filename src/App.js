@@ -46,26 +46,7 @@ const client = new ApolloClient({
 const App = () => (
   <ApolloProvider client={client}>
     <BrowserRouter>
-      {/* <Inventory>
-        <Switch> */}
-      {/* <Home>
-            <Switch> */}
-      {/* <PRoute exact path="/my/:active?/:id?" component={UserMenu} /> */}
-      {/* <Route exact path="/login" component={LoginLanded} /> */}
       <Route exact path="/" component={Products} />
-      {/* <Route exact path="/cart" component={Cart} /> */}
-      {/* <PRoute exact path="/checkout" component={Checkout} /> */}
-      {/* <Route path="/c/:category?/:subCategory?" component={AllCategory} /> */}
-      {/* <Route path="/dologin" component={Login} /> */}
-      {/* <Route path="/p/:slug" component={Product} /> */}
-      {/* <Route exact path="/editor" component={Editor} /> */}
-      {/* <Route path="/search" component={Search} /> */}
-      {/* <Route component={P404} /> */}
-      {/* </Switch> */}
-      {/* </Home>
-        </Switch> */}
-      {/* <Footer /> */}
-      {/* </Inventory> */}
     </BrowserRouter>
   </ApolloProvider>
 );
